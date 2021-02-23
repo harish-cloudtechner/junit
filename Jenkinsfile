@@ -7,8 +7,8 @@ stages {
 stage('Git Checkout') {
 steps {
 git branch: 'main',
-credentialsId: 'a06e7c70-ecfc-48f7-ac37-137afc0ce5c1',
-url: 'https://github.com/navneetguraya/java.git'
+credentialsId: 'abaf8590-6021-4c4a-8ee7-8b43d17460ee',
+url: 'https://github.com/hsct2707/jenkins.git'
 }
 }
 stage ('Compile') {
